@@ -7,6 +7,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Grotesk:wght@300..700&display=swap");
 @font-face {
   font-family: "Proxima Nova", sans-serif;
   src: url("../../fonts/proxima_nova/proxima-nova-light-italic-webfont.eot-.html#iefix")
@@ -345,7 +346,7 @@ section {
 /* line 46, node_modules/bootstrap/scss/_reboot.scss */
 body {
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 0.938rem;
   font-weight: 400;
   line-height: 1.75;
@@ -718,10 +719,32 @@ h6,
 .h5,
 .h6 {
   margin-bottom: 0.938rem;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-weight: 600;
   line-height: 1.25;
   color: #1b2e4b;
+}
+.social-icons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%; /* perfect circle */
+  background-color: white; /* white background */
+  color: #04542e; /* black icon */
+  margin-right: 12px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  border: 2px solid #04542e; /* subtle border */
+}
+
+.social-icons a:hover {
+  background-color: #04542e; /* fill on hover */
+  color: white; /* icon becomes white */
+  transform: translateY(-2px);
+  opacity: 1;
 }
 
 /* line 16, node_modules/bootstrap/scss/_type.scss */
