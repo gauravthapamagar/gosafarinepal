@@ -728,8 +728,8 @@ h6,
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 36px;
-  height: 36px;
+  width: 42px;
+  height: 42px;
   border-radius: 50%; /* perfect circle */
   background-color: white; /* white background */
   color: #04542e; /* black icon */
@@ -741,7 +741,7 @@ h6,
 }
 
 .social-icons a:hover {
-  background-color: #04542e; /* fill on hover */
+  background-color: #068449; /* fill on hover */
   color: white; /* icon becomes white */
   transform: translateY(-2px);
   opacity: 1;
@@ -785,7 +785,7 @@ h6,
 
 /* line 23, node_modules/bootstrap/scss/_type.scss */
 .lead {
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 300;
 }
 
@@ -3533,7 +3533,9 @@ table {
 [image-overlay]:before {
   position: absolute;
   content: "";
-  background: linear-gradient(75deg, #4f1bc5, #7b17c5) !important;
+  /* background: linear-gradient(75deg, #4f1bc5, #7b17c5) !important; */
+  background: linear-gradient(75deg, #04542e, #0a7a4a) !important;
+
   width: 100%;
   height: 100%;
   top: 0;
@@ -17643,8 +17645,9 @@ input[type="button"].btn-block {
   padding: 0.75rem 1rem;
   margin-bottom: 1rem;
   list-style: none;
-  background-color: #e9ecef;
+  background-color: #04542e;
   border-radius: 0.25rem;
+  color: #04542e;
 }
 
 /* line 12, node_modules/bootstrap/scss/_breadcrumb.scss */
@@ -17652,8 +17655,11 @@ input[type="button"].btn-block {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  color: #04542e;
 }
-
+.breadcrumb-item a {
+  color: #04542e !important; /* Your brand green */
+}
 /* line 16, node_modules/bootstrap/scss/_breadcrumb.scss */
 .breadcrumb-item + .breadcrumb-item {
   padding-left: 0.5rem;
@@ -17663,7 +17669,7 @@ input[type="button"].btn-block {
 .breadcrumb-item + .breadcrumb-item::before {
   display: inline-block;
   padding-right: 0.5rem;
-  color: #6c757d;
+  color: #04542e;
   content: "/";
 }
 
@@ -17679,7 +17685,7 @@ input[type="button"].btn-block {
 
 /* line 41, node_modules/bootstrap/scss/_breadcrumb.scss */
 .breadcrumb-item.active {
-  color: #6c757d;
+  color: #04542e;
 }
 
 /* line 1, node_modules/bootstrap/scss/_pagination.scss */
@@ -23497,7 +23503,13 @@ footer a {
 .background-image-wraper.bg-position-1 {
   background-position: 50% 100% !important;
 }
-
+.background-image-wraper {
+  background-color: #04542e !important; /* your green color */
+  /* background-image: none !important; removes any image if applied */
+  background-size: 50% auto; /* zooms out the image a bit */
+  background-repeat: no-repeat;
+  background-position: center center;
+}
 @media (max-width: 992px) and (min-width: 320px) {
   /* line 6, src/assets/scss/components/hero-section/_hero-10.scss */
   .background-image-wraper.bg-position-1 {
@@ -24150,7 +24162,7 @@ footer a {
   left: 0;
   right: 0;
   bottom: 30%;
-  background: linear-gradient(75deg, #4f1bc5, #7b17c5) !important;
+  background: linear-gradient(75deg, #04542e, #057c49) !important;
 }
 
 /*video popup*/
