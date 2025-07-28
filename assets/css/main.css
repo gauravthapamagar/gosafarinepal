@@ -17220,13 +17220,13 @@ input[type="button"].btn-block {
 
 /* line 224, node_modules/bootstrap/scss/_navbar.scss */
 .navbar-light .navbar-brand {
-  color: rgba(0, 0, 0, 0.9);
+  color: #04542e !important;
 }
 
 /* line 17, node_modules/bootstrap/scss/mixins/_hover.scss */
 .navbar-light .navbar-brand:hover,
 .navbar-light .navbar-brand:focus {
-  color: rgba(0, 0, 0, 0.9);
+  color: #04542e !important;
 }
 
 /* line 233, node_modules/bootstrap/scss/_navbar.scss */
@@ -17250,7 +17250,7 @@ input[type="button"].btn-block {
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active {
-  color: rgba(0, 0, 0, 0.9);
+  color: #04542e !important;
 }
 
 /* line 253, node_modules/bootstrap/scss/_navbar.scss */
@@ -17271,13 +17271,13 @@ input[type="button"].btn-block {
 
 /* line 264, node_modules/bootstrap/scss/_navbar.scss */
 .navbar-light .navbar-text a {
-  color: rgba(0, 0, 0, 0.9);
+  color: #04542e !important;
 }
 
 /* line 17, node_modules/bootstrap/scss/mixins/_hover.scss */
 .navbar-light .navbar-text a:hover,
 .navbar-light .navbar-text a:focus {
-  color: rgba(0, 0, 0, 0.9);
+  color: #04542e !important;
 }
 
 /* line 276, node_modules/bootstrap/scss/_navbar.scss */
