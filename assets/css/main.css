@@ -20825,17 +20825,15 @@ footer a {
 
 /* line 182, src/assets/scss/components/_components.buttons.scss */
 .btn-brand-03 {
-  background-color: #bf00dc;
-  border-color: #bf00dc;
-  color: #fff;
+  background-color: #06a56b; /* Lighter green */
+  border-color: #06a56b;
+  color: #ffffff;
 }
-
-/* line 17, node_modules/bootstrap/scss/mixins/_hover.scss */
 .btn-brand-03:hover,
 .btn-brand-03:focus {
-  background-color: #9300a9;
-  border-color: #9300a9;
-  color: #fff;
+  background-color: #089b61; /* Slightly darker on hover */
+  border-color: #089b61;
+  color: #ffffff;
 }
 
 /* line 192, src/assets/scss/components/_components.buttons.scss */
@@ -25918,9 +25916,9 @@ input::placeholder {
 /* line 2, src/assets/scss/components/single-pages/_404-page.scss */
 .error-content-wrap .notfound-404 {
   position: relative;
-  height: 280px;
+  height: 250px;
   z-index: 2;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 
 /* line 7, src/assets/scss/components/single-pages/_404-page.scss */
